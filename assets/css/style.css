@@ -1,0 +1,44 @@
+
+.accordion {
+    max-width: 300px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 0 auto;
+    border-radius: 3px;
+   
+}
+.chevron{
+    position: absolute;
+    right: 15px;
+    margin-top: 20px;
+    rotate: 0deg; 
+    transition: 0.5s;
+}
+.chevron.active {
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+.section {
+    color: white;
+    font-size:14px;
+    padding: 15px;
+    cursor: pointer;  
+    display: flex;
+    position: relative;
+
+}
+
+.contents {
+	display: none;
+	background-color: white;
+	padding: 15px;
+    color: black;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin: 50px 0;
+}
